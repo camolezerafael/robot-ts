@@ -1,0 +1,35 @@
+{
+	"name": "audesp-robot-js",
+	"version": "2.0.0",
+	"description": "Nova versão do Robo Audesp",
+	"main": "main.js",
+	"scripts": {
+		"start": "node main.js",
+		"debug": "node --trace-warnings index.js",
+		"tacalepau": "npx tsx main.ts --municipio 6131 --entidade 1 --ano 2023 --pacote 2",
+		"build": "tsc --build",
+		"clean": "tsc --build --clean",
+		"tsc": "tsc",
+		"start:prod": "node dist/main.js"
+	},
+	"keywords": [],
+	"author": "Rafael Camoleze",
+	"license": "ISC",
+	"type": "module",
+	"dependencies": {
+		"@types/lowdb": "^1.0.11",
+		"@types/minimist": "^1.2.2",
+		"@types/mssql": "^8.1.2",
+		"dotenv": "^16.0.3",
+		"lowdb": "^5.1.0",
+		"minimist": "^1.2.8",
+		"minimist2": "^1.0.2",
+		"mssql": "^9.1.1",
+		"playwright": "^1.32.3"
+	},
+	"devDependencies": {
+		"@types/node": "^18.15.11",
+		"dotenv": "^16.0.3",
+		"typescript": "^5.0.4"
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"name": "robo",
+	"version": "1.0.0",
+	"description": "PST Audesp ROBO",
+	"author": {
+		"name": "Rafael Camoleze",
+		"email": "rafael0confiattasistemas.com.br",
+		"url": "https://github.com/camolezerafael"
+	},
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node index.js"
+	},
+	"license": "ISC",
+	"type": "module",
+	"dependencies": {
+		"puppeteer": "^19.9.0"
+	}
+}
